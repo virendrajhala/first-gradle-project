@@ -32,7 +32,4 @@ task testGradleTaskBuild{
      println("Hello World")
  }
 
-
-build.
-
 testGradleTaskBuild.dependsOn(helloWorld)

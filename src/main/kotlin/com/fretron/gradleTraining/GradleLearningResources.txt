@@ -1,0 +1,10 @@
+
+Resources
+
+Gradle projects—IntelliJ IDEA - https://www.jetbrains.com/help/idea/work-with-gradle-projects.html
+
+Gradle User Manual - https://docs.gradle.org/current/userguide/userguide.html
+
+Using Gradle - https://kotlinlang.org/docs/reference/using-gradle.html
+
+Gradle - https://en.wikipedia.org/wiki/Gradle
