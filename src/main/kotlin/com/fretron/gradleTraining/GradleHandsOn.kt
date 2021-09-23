@@ -61,7 +61,7 @@ class GradleHandsOn (size:Int){
         arr[j] = temp
     }
 
-    fun display() : Unit{
+    fun displayArray() : Unit{
         arr.forEach{
             print("$it ")
         }
@@ -87,7 +87,7 @@ fun main(){
 
     println("Array before Merge Sort : ")
     obj.reverse()
-    obj.display()
+    obj.displayArray()
 
     println()
 
@@ -95,7 +95,7 @@ fun main(){
     var h = obj.getArraySize()-1
     println("Array after Merge Sort : ")
     obj.mergeSort(obj.getArray(),l,h)
-    obj.display()
+    obj.displayArray()
 
     println()
 }
