@@ -18,6 +18,8 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
     implementation 'org.apache.logging.log4j:log4j-audit:1.0.1'
     implementation 'org.apache.logging.log4j:log4j-api:2.14.1'
+    implementation group: 'jakarta.ws.rs', name: 'jakarta.ws.rs-api', version: '3.0.0'
+    implementation group: 'org.glassfish.jersey.containers', name: 'jersey-container-grizzly2-http', version: '3.0.2'
 }
 
 test {
