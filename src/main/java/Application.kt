@@ -8,7 +8,7 @@ import java.net.URI
 
 fun main(){
 
-    val baseUri:URI = UriBuilder.fromUri("http://localhost/").port(8080).build()
+    val baseUri:URI = UriBuilder.fromUri("http://localhost").port(8080).build()
     val config:ResourceConfig = ResourceConfig(Resource::class.java)
     val server = GrizzlyHttpServerFactory.createHttpServer(baseUri,config)
 }
